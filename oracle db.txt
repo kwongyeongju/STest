@@ -1,0 +1,13 @@
+@C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\scott.sql
+
+connect
+system
+
+
+alter user scott identified by tiger;
+
+conn scott/tiger;
+
+select * from emp;
+
+s
